@@ -8,7 +8,7 @@ async function start() {
 
 	content.searchTerm = askAndReturnSearchTerm()
 	content.prefix = askAndReturnPrefix()
-
+  
 	await robots.text(content)
 
 	function askAndReturnSearchTerm() {
